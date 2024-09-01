@@ -1,0 +1,109 @@
+/* Colocando os estilos para as paginas*/
+/*trocar a cor de fundo e o tipo de letra */
+body {
+    font-family:'Lucida Sans', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+/* trocar a cor do fundo como um faixa entra a escrita e centralizar o texto  */
+header {
+    background-color: #3d10e0;
+    color: #000000;
+    padding: 1rem 0;
+    text-align: center;
+}
+/*ajeitando os menus de link  */
+nav ul {
+    list-style: none;
+    padding: 10;
+}
+
+nav ul li {
+    text-align: center;
+    display: inline;
+    margin-right: 150px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* lista para epsecificar aonde as listas devem estar*/
+.lista {
+    text-align: center;
+    line-height: 4;
+    margin: 60px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bolder;
+}
+/*Mundando a fonte e centralizando o texto com uma futura imagem */
+.sub{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.sub1{
+    font-size: 33px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+main {
+    padding: 30px;
+}
+/*colocando o titulo de cada pagina em um padrão */
+h1 {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #3c1caf;
+    color: #fff;
+    position:relative;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 30px 0;
+    color: #3c1caf;
+    position:relative;
+    width: 100%;
+    font-size: 44px;
+    line-height: 0;
+}
+
+/*Personalização da parte do contato comrelação as caixas de entrada para email nome e mensagem */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 9px;
+    border: 2px solid #0395f7;
+}
+
+form input[type="submit"] {
+    background-color: #4b00fa;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #4b00fa;
+}
+/*centralizando as imagens do index */
+.img{
+    text-align: center;
+}
+
+
+
